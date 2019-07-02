@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Contact Me
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary">Name</ion-label>
+      <ion-input placeholder="Ex: John Doe"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label color="primary">Email</ion-label>
+      <ion-input placeholder="Ex: email@email.com"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-textarea placeholder="Write your comment here."></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button (click)="pressMe()">Submit</ion-button>
+</ion-content>
